@@ -15,7 +15,7 @@
     "license": "ISC",
     "bugs": {
         "url": "https://github.com/ChainarongWongkhampuan/CourseFlow/issues"
-    },
+    ,
     "homepage": "https://github.com/ChainarongWongkhampuan/CourseFlow#readme"
   },
   "dependencies": {
