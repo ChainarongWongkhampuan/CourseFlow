@@ -20,7 +20,7 @@ import test2Router from "./apps/test2.js";
 
 async function init() {
   const app = express();
-  const port = process.env.PORT || 4000;
+  const port = process.env.PORT ||4000
 
   app.use(cors());
   app.use(bodyParser.json());
