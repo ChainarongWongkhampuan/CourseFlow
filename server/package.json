@@ -18,17 +18,23 @@
     "session": "^0.1.0",
     "uuid": "^9.0.0"
   },
-  "name": "server",
+{
+ "name": "CourseFlow",
   "version": "1.0.0",
-  "main": "app.js",
-  "type": "module",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js",
-    "dev": "nodemon app.js"
+    "description": "",
+    "scripts": {
+        "build": "echo \"No build specified\" && exit 1",
+        "test": "echo \"No test specified\" && exit 1",
+        "start": "node index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ChainarongWongkhampuan/CourseFlow.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/ChainarongWongkhampuan/CourseFlow/issues"
+    },
+    "homepage": "https://github.com/ChainarongWongkhampuan/CourseFlow#readme"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": ""
-}
