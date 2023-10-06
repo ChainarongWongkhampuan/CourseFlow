@@ -4,7 +4,7 @@ import { LocalizationProvider } from "@mui/x-date-pickers/LocalizationProvider";
 import { AdapterDayjs } from "@mui/x-date-pickers/AdapterDayjs";
 import { DatePicker } from "@mui/x-date-pickers/DatePicker";
 import dayjs from "dayjs";
-import calendarIcon from "image/calendarIcon.svg";
+import calendarIcon from "/image/calendarIcon.svg";
 import { useEffect, useState } from "react";
 import axios from "axios";
 import { useAuth } from "../contexts/AuthContext";
@@ -25,7 +25,7 @@ function UpdateProfile() {
   const handleFileChange = (event) => {
     const file = event.target.files[0];
     if (file) {
-      const allowedTypes = ["image/jpeg", "image/jpg", "image/png"];
+      const allowedTypes = ["/image/jpeg", "/image/jpg", "/image/png"];
 
       if (allowedTypes.includes(file.type)) {
         if (file.size <= 2 * 1024 * 1024) {
@@ -305,7 +305,7 @@ function UpdateProfile() {
                     ? avatarUrl
                     : image
                       ? image
-                      : "image/noprofile.svg"
+                      : "/image/noprofile.svg"
                 }
                 className="relative w-[358px] h-[358px] object-cover	rounded-2xl	"
               />

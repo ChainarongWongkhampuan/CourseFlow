@@ -12,7 +12,7 @@ function UploadImage(props) {
     const imgFile = event.target.files[0];
 
     if (imgFile) {
-      const allowedImgTypes = ["image/jpeg", "image/jpg", "image/png"];
+      const allowedImgTypes = ["/image/jpeg", "/image/jpg", "/image/png"];
 
       if (allowedImgTypes.includes(imgFile.type)) {
         if (imgFile.size <= 5 * 1024 * 1024) {

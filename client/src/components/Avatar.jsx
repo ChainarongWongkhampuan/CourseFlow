@@ -80,7 +80,7 @@ export default function Avatar({ url, size, onUpload }) {
           }}
           type="file"
           id="single"
-          accept="image/*"
+          accept="/image/*"
           onChange={uploadAvatar}
           disabled={uploading}
         />

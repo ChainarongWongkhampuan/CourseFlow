@@ -5,7 +5,7 @@ import { LocalizationProvider } from "@mui/x-date-pickers/LocalizationProvider";
 import { AdapterDayjs } from "@mui/x-date-pickers/AdapterDayjs";
 import { DatePicker } from "@mui/x-date-pickers/DatePicker";
 import SnackBar from "./SnackBar";
-import calendarIcon from "image/calendarIcon.svg";
+import calendarIcon from "/image/calendarIcon.svg";
 import dayjs from "dayjs";
 import axios from "axios";
 import { useEffect } from "react";
